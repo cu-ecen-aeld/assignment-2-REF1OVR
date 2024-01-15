@@ -32,7 +32,7 @@ int main(int argc, char *argv[]){
 		fclose(fp);
 		closelog();		// Optional according to man page
 		return 1;
-    }
+	}
 
 	syslog(LOG_DEBUG, "Writing %s to %s", writestr, writefile);
 
